@@ -4,6 +4,6 @@ import os
 os.system("synclient tapbutton1=1")
 os.system("synclient tapbutton2=3")
 os.system("syndaemon -i 1 -K -t -d")
-print("Enter to exit")
+print("Done, Enter to exit")
 tmp = input()
 exit()
